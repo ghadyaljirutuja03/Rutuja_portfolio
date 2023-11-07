@@ -1,0 +1,64 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.navigation_bar{
+	background-image: linear-gradient(to right,#99a7a8,#999ea8,#999aa8);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+.navmenu{
+	color: black;
+	font-size:20px;
+	font-weight: bolder;
+	transition-duration: 0.5s;
+
+}
+.navmenu:hover{
+	color: lightgrey;
+}
+.myname{
+	font-size: 30px;
+	font-family: Bauhaus 93;
+	color: black;
+	text-shadow: 0px 0px 3px white;
+	font-variant: small-caps;
+}
+.sect
+{
+	border: 2px solid black;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sect div
+{
+	font-size: 50px;
+}
+html{
+	scroll-behavior: smooth;
+}
+.home{
+/*	background-color: lightblue;*/
+height: 600px;
+}
+.homename{
+	font-size: 80px;
+}
+#designation
+{
+	font-size: 50px;
+	color: black;
+	font-variant: small-caps;
+	font-weight: bolder;
+}
+.home div
+{
+	font-weight: bolder;
+
+}
