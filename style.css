@@ -1,40 +1,41 @@
-
 *{
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 }
 .navigation_bar{
-	background-image: linear-gradient(to right,#99a7a8,#999ea8,#999aa8);
+	background-image: linear-gradient(to right,#bac2bf,#64736e,#32dba9);
 	position: fixed;
 	top: 0px;
 	left: 0px;
 	width: 100%;
+	z-index: 5;
 }
 .navmenu{
-	color: black;
+	color: seagreen;
 	font-size:20px;
 	font-weight: bolder;
 	transition-duration: 0.5s;
 
 }
 .navmenu:hover{
-	color: lightgrey;
+	color: black;
 }
 .myname{
 	font-size: 30px;
-	font-family: Bauhaus 93;
-	color: black;
+/*	as*/
+	font-family: Cooper Black;
+	color: seagreen;
 	text-shadow: 0px 0px 3px white;
 	font-variant: small-caps;
 }
 .sect
 {
-	border: 2px solid black;
+/*	border: 2px solid black;*/
 	height: 500px;
-	display: flex;
+	/*display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center;*/
 }
 .sect div
 {
@@ -44,8 +45,8 @@ html{
 	scroll-behavior: smooth;
 }
 .home{
-/*	background-color: lightblue;*/
-height: 600px;
+	margin-top: 100px;
+	height: 400px;
 }
 .homename{
 	font-size: 80px;
@@ -53,12 +54,42 @@ height: 600px;
 #designation
 {
 	font-size: 50px;
-	color: black;
+	color: seagreen;
 	font-variant: small-caps;
 	font-weight: bolder;
 }
 .home div
 {
 	font-weight: bolder;
-
+}
+.about{
+	background-color: #dae0da;
+	height: 400px;
+}
+.aboutdata
+{
+	margin-top: 25px;
+}
+.cobj
+{
+	font-size: 25px;
+	text-align: justify;
+	text-indent: 20%;
+	color: grey;
+}
+.section_head
+{
+	font-size: 50px;
+	color: seagreen;
+	font-variant: small-caps;
+	font-family: Cooper Black;
+}
+.myimg{
+	transition-duration: 1.5s;
+}
+.myimg:hover
+{
+	transform: scale(1.7);
+	border-radius: 50px;
+	box-shadow: 0px 0px 20px seagreen;
 }
