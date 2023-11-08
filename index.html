@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,14 +10,16 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
   <!-- External CSS link below -->
   <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Rutuja Portfolio</title>
+  <!-- link from aos github -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>RUTUJA PORTFOLIO</title>
 </head>
 <body>
   <div class="maindiv" id="main_div">
     <div class="navigation_bar">
         <!-- naviagtion code below -->
         <nav class="navbar navbar-expand-lg ">
-  <a class="navbar-brand" href="#"><span class="myname">Rutuja <span><img src="https://cdn-icons-png.flaticon.com/512/1096/1096028.png" height="30px"> </span> </span></a>
+  <a class="navbar-brand" href="#"><span class="myname">RUTUJA <span><img src="https://cdn-icons-png.flaticon.com/512/1096/1096028.png" height="30px"> </span> </span></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -48,8 +51,8 @@
         <div align="center">
             <span>Hello</span><br>
             <span>My name is </span><br>
-            <span class="myname homename">Rutuja Ghadyalji</span><br>
-            <span>I am a <span id="designation">TESTER</span></span>
+            <div class="myname homename" data-aos="slide-up">Rutuja Ghadyalji</div><br>
+            <span>I am a <span id="designation">QA TESTER</span></span>
         </div>
     </div>
     <div class="about sect" id="about_sec">
@@ -67,7 +70,7 @@
         </div>
     </div>
     <div class="skills sect" id="skills_sec">
-      <div class="skill_heading" align="center">
+        <div class="skill_heading" align="center">
           <h1 class="section_head" >Skills</h1>
           <table  width="80%" height="300px" >
               <tr class="skillset">
@@ -75,34 +78,68 @@
                   <ul type="none">
                     <li><img src="https://e7.pngegg.com/pngimages/509/412/png-clipart-microsoft-sql-server-microsoft-azure-sql-database-table-table-furniture-text-thumbnail.png" height="30px">  Oracle SQl</li>
                     <li><img src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-512.png" height="30px"> HTML</li>
-                    <li><img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" height="30px">CSS</li>
-                
-                    <li><img src="https://icons.getbootstrap.com/assets/img/icons-hero.png" height="30px">Bootstrap </li>
-
-                    <li><img src="https://w1.pngwing.com/pngs/951/574/png-transparent-react-logo-javascript-redux-vuejs-angular-angularjs-expressjs-front-and-back-ends-thumbnail.png" height="30px"> JavaScript</li>
+                    <li><img src="https://e1.pngegg.com/pngimages/326/868/png-clipart-css3-badge-blue-and-white-css-icon-thumbnail.png" height="30px"> CSS</li>
+                    <li><img src="https://icons.getbootstrap.jp/assets/img/icons-hero.png" height="40px">Bootstrap </li>
+                    <li><img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png" height="30px">JavaScript</li>
                   </ul>
                 </td>
                 <td valign="top">
                   <ul type="none">
-                    <li>React JS</li>
-                  <li>XML</li>
-                  <li>JSON</li>
-                  <li>MongoDB</li>
-        
+                    <li><img src="https://icons-for-free.com/iconfiles/png/512/logo+react+react+js+icon-1320184811840217251.png" height="30px"> React JS</li>
+                  <li><img src="https://cdn-icons-png.flaticon.com/512/6943/6943969.png" height="30px"> XML</li>
+                  <li><img src="https://cdn-icons-png.flaticon.com/512/8297/8297373.png" height="30px"> JSON</li>
+                  <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Antu_mongodb.svg/1024px-Antu_mongodb.svg.png" height="40px"> MongoDB</li>
                   </ul>
                 </td>
               </tr>
           </table>
         </div>
     </div>
-      <div>skills sections</div> 
-    </div>
     <div class="projects sect" id="projects_sec">
-      <div>projects sections</div> 
+      <div class="project" align="center">
+        <h1  class="section_head" >Projects</h1>
+        <div class="project_cards">
+                              <div class="card-deck">
+              <div class="card" data-aos="slide-right">
+                <img src="https://www.weberp4.com/images/oa_em.gif" class="card-img-top" alt="..." height="300px">
+                <div class="card-body">
+                  <h5 class="card-title">Staff Management System</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+              <div class="card" data-aos="slide-down">
+                <img src="https://meeraacademy.com/wp-content/uploads/2021/02/tableordering.png" class="card-img-top" alt="..." height="300px">
+                <div class="card-body">
+                  <h5 class="card-title">Restaurant Ordering System</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  
+                </div>
+              </div>
+              <div class="card" data-aos="slide-left">
+                <img src="https://smprobotics.com/wp-content/uploads/2015/12/security_patrol_robot_with_ptz_camera.png" class="card-img-top" alt="..." height="250px" style="padding: 20px;">
+                <div class="card-body">
+                  <h5 class="card-title">Women Safety Patrolling Robot</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                 
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- project cards ends here -->
+      </div> 
     </div>
     <div class="contact sect" id="contact_sec">
       <div>contact sections</div> 
     </div>
+  </div>
+  <!-- aos script tag -->
+  <div>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+       duration:1500
+    });
+  </script>
   </div>
 </body>
 </html>

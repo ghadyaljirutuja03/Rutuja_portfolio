@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 .navigation_bar{
-	background-image: linear-gradient(to right,#bac2bf,#64736e,#32dba9);
+	background-image: linear-gradient(to right,#5ce0bd,#548a7b,#32dba9);
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -96,8 +96,8 @@ html{
 .myname{
 	font-size: 30px;
 /*	as*/
-	font-family: Arial Black;
-	color: royalblue;
+	font-family: Cooper Black;
+	color: seagreen;
 	text-shadow: 0px 0px 3px white;
 	font-variant: small-caps;
 }
@@ -126,7 +126,7 @@ html{
 #designation
 {
 	font-size: 50px;
-	color: orangered;
+	color: seagreen;
 	font-variant: small-caps;
 	font-weight: bolder;
 }
@@ -152,9 +152,9 @@ html{
 .section_head
 {
 	font-size: 50px;
-	color: royalblue;
+	color: seagreen;
 	font-variant: small-caps;
-	font-family: Arial Black;
+	font-family: Cooper Black;
 }
 .myimg{
 	transition-duration: 1.5s;
@@ -163,10 +163,10 @@ html{
 {
 	transform: scale(1.4);
 	border-radius: 50px;
-	box-shadow: 0px 0px 20px royalblue;
+	box-shadow: 0px 0px 20px black;
 }
 .skills{
-/*	background-color: lightgrey;*/
+background-color: whitesmoke;
 }
 .skillset  td ul li{
 	margin-top: 25px;
